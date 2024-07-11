@@ -1,0 +1,155 @@
+<!DOCTYPE html>  <!-- This declares the document type and sets the language to English. -->
+<html lang="en">
+
+    <head>      <!-- The <head> section contains meta information, links to stylesheets, and the page title. -->
+       
+        <meta charset="UTF-8" />    <!-- Sets the character encoding and makes the page responsive. -->
+        <meta name="viewport" content="width=device-width, initial-scale=2.5" />
+        <title>CyberShield | Password Generator</title> 
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous" />
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+        
+        <link         // Includes Bootstrap for layout, a custom stylesheet, Google Fonts for typography, Font Awesome for icons, and a favicon.
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+            rel="stylesheet" />
+        
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+            integrity="sha512-tROA4n4JiGy4vSDV7lL8XmdoVZ51Ob3n0aBU1G03fFb5i5H5e1v5VnEoCIfRglivno2SPD1wcn0ihrNHoymlfA=="
+            crossorigin="anonymous" />
+
+        <!-- Favicon Icon -->
+        <link rel="icon" href="assets/img/favi-icon/favi-lock.png" />
+
+        <!-- Meta & SEO Tags -->   <!-- Provides a description and keywords for search engines. -->
+        <meta name="description"
+            content="Generate strong and secure passwords with our online tool. Customize password length and include uppercase, lowercase, numbers, and symbols for enhanced security.">
+        <meta name="keywords"
+            content="password, generator, secure, online, tool, strong password, password security, password strength">
+   
+    </head>
+
+    <body>   <!-- The <body> section contains the content of the page. -->
+        <!-- Preloader -->
+        <div class="preloader">   <!-- Displays a preloader with a lock icon and a spinner. --> 
+            <div class="lock-icon">
+                <i class="fas fa-lock"></i>
+            </div>
+            <div class="spinner"></div>
+        </div>
+        
+
+        <!-- End Preloader -->
+        <!-- A container with a title, a description, a slider for selecting password length, checkboxes for character types, buttons to generate and copy the password, and an input field to display the generated password. --> 
+        <div class="container">  
+            <h1 class="text-center mb-5">
+                PASSWORD GENERATOR
+            </h1>
+            
+            <h3 class="text-center mb-5">
+                Elevate your online security with <span>CyberShield</span> - a
+                powerful password generator that creates robust, customizable
+                passwords to safeguard your digital life.
+            </h3>
+           
+            <div class="form-group">
+                <label for="passwordLength">Password Length: <span
+                        id="passwordLengthText">12</span></label>
+                <input type="range" class="form-control-range"
+                    id="passwordLength" min="8" max="128" value="12" />
+            </div>
+
+            <div class="form-group">
+                
+                <label>Character Types:</label>
+                
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox"
+                        id="uppercaseCheckbox" checked />
+                    <label class="form-check-label" for="uppercaseCheckbox">
+                        Uppercase
+                    </label>
+                </div>
+                
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox"
+                        id="lowercaseCheckbox" checked />
+                    <label class="form-check-label" for="lowercaseCheckbox">
+                        Lowercase
+                    </label>
+                </div>
+                
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox"
+                        id="numbersCheckbox" />
+                    <label class="form-check-label" for="numbersCheckbox">
+                        Numbers
+                    </label>
+                </div>
+                
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox"
+                        id="symbolsCheckbox" />
+                    <label class="form-check-label" for="symbolsCheckbox">
+                        Symbols
+                    </label>
+                </div>
+           
+            </div>
+
+            <div class="form-group">
+                
+                <button type="button" id="generateButton"
+                    class="btn btn-primary">
+                    Generate Password
+                </button>
+                
+                <button type="button" id="copyButton" class="btn btn-secondary">
+                    Copy Password
+                </button>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Your Password:</label>
+                <input type="text" class="form-control" id="password"
+                    readonly />
+            </div>
+        
+        </div>
+
+        <!-- Start Footer Section -->
+        <!-- Displays the footer with credit to the developer. -->
+        <footer>
+            <div class="container">
+                <div class="st-copyright-wrap text-center">
+                    <div class="st-copyright-text">
+                        © 2024. Designed & Developed by
+                        <a href="https://www.linkedin.com/in/chandrika-bijore-772ab1227/">Chandrika Bijore</a>.
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer Section -->
+
+        <!-- jQuery --> <!-- Includes jQuery and custom JavaScript files for functionality. -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        
+        <script src="assets/js/script.js"></script>
+        
+        <script src="assets/js/block.js"></script>
+        
+        <script src="assets/js/jquery-1.12.4.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>        
+    
+    </body>
+</html>     
