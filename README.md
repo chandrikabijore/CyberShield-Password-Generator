@@ -27,7 +27,7 @@ To use the Password Generator Tool, simply visit the [Password Generator website
 If you want to run the Password Generator Tool locally, follow these steps:
 
 1. Clone the repository by running `git clone https://github.com/chandrikabijore/CyberShield-Password-Generator-cb.git` in your terminal       
-2. Navigate to the project directory by running `cd password-generator`
+2. Navigate to the project directory by running `cd CyberShield-Password-Generator-cb`
 3. Open the `index.html` file in your preferred web browser
 
 ## <b> Usage </b>
