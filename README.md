@@ -26,7 +26,7 @@ To use the Password Generator Tool, simply visit the [Password Generator website
 
 If you want to run the Password Generator Tool locally, follow these steps:
 
-1. Clone the repository by running `git clone https://github.com/karthik558/password-generator.git` in your terminal
+1. Clone the repository by running `git clone https://github.com/CyberShield-Password-Generator-cb.git` in your terminal
 2. Navigate to the project directory by running `cd password-generator`
 3. Open the `index.html` file in your preferred web browser
 
@@ -51,4 +51,12 @@ Contributions to the Password Generator Tool are welcome and appreciated. To con
 5. Commit your changes by running `git commit -am 'Add some feature'`
 6. Push your changes to your fork of the repository by running `git push origin my-new-feature`
 7. Create a new pull request by going to the repository page on GitHub and clicking on the "New pull request" button
+ 
+## Find out more about me & feel free to connect with me here:
+ 
+[![LeetCode Badge](https://img.shields.io/badge/-chandrikabijore-orange?style=flat-square&logo=Leetcode&logoColor=white&link=https://leetcode.com/chandrikabijore/)](https://leetcode.com/chandrikabijore/)
+[![LinkedIn Badge](https://img.shields.io/badge/-ChandrikaBijore-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/chandrika-bijore-772ab1227/)](https://www.linkedin.com/in/chandrika-bijore-772ab1227/)
+[![Instagram](https://img.shields.io/badge/-Chandrika_bijore_3072-purple?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/chandrika_bijore_3072/)](https://www.instagram.com/chandrika_bijore_3072/)
+[![Gmail Badge](https://img.shields.io/badge/-chandrikabijore@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:chandrikabijore@gmail.com)](mailto:chandrikabijore@gmail.com)
+[![Website Badge](https://img.shields.io/badge/-Portfolio-black?style=flat-square&logo=Wordpress&logoColor=white&link=https://github.com/chandrikabijore)]([https://github.com/chandrikabijore](https://github.com/chandrikabijore))
  
