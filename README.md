@@ -16,7 +16,7 @@ A secure and user-friendly password generator tool that helps you generate stron
 
 ### <b> Screenshots </b>
 
-![Password Generator Screenshot 1](assets/img/screenshot-docs/pc-1.png)
+![Password Generator Screenshot 1](assets/img/sreenshots-shivi-pc/Pc-cb-1.png)
 
 ![Password Generator Screenshot 2](assets/img/screenshot-docs/pc-2.png)
 
